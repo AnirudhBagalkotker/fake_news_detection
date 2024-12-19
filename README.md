@@ -75,6 +75,52 @@ The repository is organized as follows:
    Once the services are running, open your browser and navigate to:  
    `http://localhost:8000` for the interface.
 
+## OR
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/username/fake-news-detection.git
+   cd fake-news-detection
+   ```
+
+2. **Install Dependencies for Backend (using only Python 3.12)**
+
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   ```
+
+3. **Install Dependencies for Frontend and Build**
+
+   ```bash
+   cd frontend
+   npm install
+   npm run build
+   ```
+
+4. **Download files from Drive (Optional)**
+
+   Download files from the link:
+   <https://drive.google.com/drive/folders/1XnD0qOXhAmWQqA8xJ6RYXzgXU-Lkf-Ng>
+
+5. **Run the Model (model.ipynb)**
+
+   You can skip this step if you download the checkpoints from the drive.
+
+6. **Run the Backend**
+
+   Run the backend after model generates the hybrid checkpoint. You can skip this step if you download the checkpoints from the drive.
+
+   ```bash
+   cd backend
+   uvicorn main:app --reload
+   ```
+
+7. **Access the Application**  
+   Once the services are running, open your browser and navigate to:  
+   `http://localhost:8000` for the interface.
+
 ---
 
 ## **How It Works**
