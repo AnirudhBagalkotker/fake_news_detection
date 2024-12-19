@@ -1,0 +1,9 @@
+.vscode
+
+/backend/myenv
+/backend/nltk_data
+/backend/__pycache__
+
+/node_modules
+/build
+
