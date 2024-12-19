@@ -56,7 +56,7 @@ The repository is organized as follows:
 
 ### **Setup**
 
-1. **Clone the Repository**  
+1. **Clone the Repository**
 
    ```bash
    git clone https://github.com/username/fake-news-detection.git
@@ -66,18 +66,17 @@ The repository is organized as follows:
 2. **Download files from Drive**
 
    Download files from the link:
-   <https://drive.google.com/drive/folders/1XnD0qOXhAmWQqA8xJ6RYXzgXU-Lkf-Ng>
+   [https://drive.google.com/drive/folders/1XnD0qOXhAmWQqA8xJ6RYXzgXU-Lkf-Ng](https://drive.google.com/drive/folders/1XnD0qOXhAmWQqA8xJ6RYXzgXU-Lkf-Ng)  and place it in the /backend directory (NOTE: Dont Place it the /backend/models directory)
 
-3. **Build Docker Containers**  
-   Use Docker Compose to build and run the backend and frontend services:
+3. **Build Docker Containers**Use Docker Compose to build and run the backend and frontend services:
 
    ```bash
    docker-compose build
    docker-compose up
    ```
 
-4. **Access the Application**  
-   Once the services are running, open your browser and navigate to:  
+4. **Access the Application**
+   Once the services are running, open your browser and navigate to:
    `http://localhost:8000` for the interface.
 
 ## OR
@@ -107,12 +106,11 @@ The repository is organized as follows:
 4. **Download files from Drive (Optional)**
 
    Download files from the link:
-   <https://drive.google.com/drive/folders/1XnD0qOXhAmWQqA8xJ6RYXzgXU-Lkf-Ng>
+   [https://drive.google.com/drive/folders/1XnD0qOXhAmWQqA8xJ6RYXzgXU-Lkf-Ng](https://drive.google.com/drive/folders/1XnD0qOXhAmWQqA8xJ6RYXzgXU-Lkf-Ng)  and place it in the /backend directory (NOTE: Dont Place it the /backend/models directory)
 
 5. **Run the Model (model.ipynb)**
 
    You can skip this step if you download the checkpoints from the drive.
-
 6. **Run the Backend**
 
    Run the backend after model generates the hybrid checkpoint. You can skip this step if you download the checkpoints from the drive.
@@ -122,8 +120,8 @@ The repository is organized as follows:
    uvicorn main:app --reload
    ```
 
-7. **Access the Application**  
-   Once the services are running, open your browser and navigate to:  
+7. **Access the Application**
+   Once the services are running, open your browser and navigate to:
    `http://localhost:8000` for the interface.
 
 ---
@@ -149,10 +147,8 @@ The frontend is a web-based interface built with React. It allows users to:
 
 ## **Usage**
 
-1. **Upload a News Article**  
-   Input a news article's text or URL into the frontend.
-
-2. **Get Predictions**  
+1. **Upload a News Article**Input a news article's text or URL into the frontend.
+2. **Get Predictions**
    The system processes the text and displays the prediction (True or Fake).
 
 ---
