@@ -63,7 +63,12 @@ The repository is organized as follows:
    cd fake-news-detection
    ```
 
-2. **Build Docker Containers**  
+2. **Download files from Drive**
+
+   Download files from the link:
+   <https://drive.google.com/drive/folders/1XnD0qOXhAmWQqA8xJ6RYXzgXU-Lkf-Ng>
+
+3. **Build Docker Containers**  
    Use Docker Compose to build and run the backend and frontend services:
 
    ```bash
@@ -71,7 +76,7 @@ The repository is organized as follows:
    docker-compose up
    ```
 
-3. **Access the Application**  
+4. **Access the Application**  
    Once the services are running, open your browser and navigate to:  
    `http://localhost:8000` for the interface.
 
