@@ -68,7 +68,9 @@ The repository is organized as follows:
    Download files from the link:
    [https://drive.google.com/drive/folders/1XnD0qOXhAmWQqA8xJ6RYXzgXU-Lkf-Ng](https://drive.google.com/drive/folders/1XnD0qOXhAmWQqA8xJ6RYXzgXU-Lkf-Ng)  and place it in the /backend directory (NOTE: Dont Place it the /backend/models directory)
 
-3. **Build Docker Containers**Use Docker Compose to build and run the backend and frontend services:
+3. **Build Docker Containers**
+
+Use Docker Compose to build and run the backend and frontend services:
 
    ```bash
    docker-compose build
@@ -76,7 +78,8 @@ The repository is organized as follows:
    ```
 
 4. **Access the Application**
-   Once the services are running, open your browser and navigate to:
+   
+Once the services are running, open your browser and navigate to:
    `http://localhost:8000` for the interface.
 
 ## OR
@@ -121,7 +124,8 @@ The repository is organized as follows:
    ```
 
 7. **Access the Application**
-   Once the services are running, open your browser and navigate to:
+   
+Once the services are running, open your browser and navigate to:
    `http://localhost:8000` for the interface.
 
 ---
